@@ -16,5 +16,4 @@ require_once('Payment.php');
 
     }
 
-
 ?>

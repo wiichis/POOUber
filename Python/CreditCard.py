@@ -7,7 +7,7 @@ class CreditCard(Payment):
     ammount        = str
 
     def __init__(self, id, cardNumber, cvv, dateExpiration, ammount):
-        super().__init__(id, ammount)
+        super().__init__(id)
         self.cardNumber = cardNumber
         self.cvv = cvv
         self.dateExpiration = dateExpiration

@@ -1,7 +1,5 @@
 class Payment:
-    id      = int
-    ammount = int
+    id = int
 
-    def __init__(self, id, ammount):
+    def __init__(self, id):
         self.id = id
-        self.ammount
